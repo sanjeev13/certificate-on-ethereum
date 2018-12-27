@@ -1,0 +1,32 @@
+{
+  "name": "certificates-on-ethereum",
+  "version": "1.0.0",
+  "description": "web application to store and view certificates on ethereum",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeev13/certificates-on-ethereum.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smartcontract",
+    "node",
+    "api"
+  ],
+  "author": "Sanjeev Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeev13/certificates-on-ethereum/issues"
+  },
+  "homepage": "https://github.com/sanjeev13/certificates-on-ethereum#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "ethers": "latest",
+    "solc": "0.4.25",
+    "pug": "latest"
+  }
+}
