@@ -1,0 +1,15 @@
+extends base
+
+block content
+  form.form-group(method='POST' action='/certificate')
+    div.form-group
+      label(for='id') Enter Student Id:
+      input#id.form-control(type='text', placeholder='Id' name='id')
+    div.form-group
+      label(for='name') Enter Student Id:
+      input#name.form-control(type='text', placeholder='Name' name='name')
+    div.form-group
+      label(for='grade') Enter Student Grade:
+      input#grade.form-control(type='text', placeholder='Grade' name='grade')
+
+    button.btn.btn-primary(type='submit') Add Certificate

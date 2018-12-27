@@ -1,0 +1,8 @@
+extends base
+
+block content
+  form(method='GET' action='/certificate')
+    div.form-group
+      label(for='name') Enter Student Id:
+      input#name.form-control(type='text', placeholder='Id' name='id')
+    button.btn.btn-primary(type='submit') Get Certificate

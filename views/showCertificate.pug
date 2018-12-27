@@ -1,0 +1,31 @@
+extends base
+
+block content
+  div(style='width:800px; height:600px; padding:20px; text-align:center; border: 10px solid #787878')
+    span
+      img.img-responsive(width='150' height='150' src='https://www.livechennai.com/businesslistings/News_photo/IIIT-H229181.jpg')
+    span(style='font-size:40px; font-weight:bold') Certificate of Completion
+    br
+    span(style='font-size:20px')
+      i This is to certify that
+    br
+    span(style='font-size:30px')
+      b #{certificate.name}
+    br
+    span(style='font-size:20px')
+      i has completed the course
+    br
+    span(style='font-size:30px')
+      b Blockchain Technologies and Solutions
+    br
+    span(style='font-size:20px')
+      | with grade of
+      b  #{certificate.grade}
+    br
+    span(style='font-size:20px')
+      i Issue Date:
+      b  #{certificate.issueDate}
+    br
+    span(style='font-size:15px')
+      i
+        a(href='https://ropsten.etherscan.io/tx/'+certificate.tx+"#eventlog") Certificate creation transaction detail link!
